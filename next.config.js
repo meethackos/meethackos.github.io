@@ -9,7 +9,10 @@ const withNextra = require("nextra")({
 const nextConfig = {
   output: "export",
   basePath: "/meethackos.github.io",
-  // any configs you need
+  images: {
+    unoptimized: true,
+  },
+	// any configs you need
 };
 
 module.exports = withNextra(nextConfig);
