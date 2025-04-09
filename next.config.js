@@ -8,6 +8,7 @@ const withNextra = require("nextra")({
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
+  basePath: "/meethackos.github.io",
   // any configs you need
 };
 
