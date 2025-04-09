@@ -1,18 +1,13 @@
-const withNextra = require("nextra")({
-  theme: "nextra-theme-blog",
-  themeConfig: "./theme.config.js",
-  latex: true
-  // optional: add `unstable_staticImage: true` to enable Nextra's auto image import
-});
+const withNextra = require('nextra')({
+  theme: 'nextra-theme-docs',
+  themeConfig: './theme.config.tsx',
+  latex: true,
+  output: 'export',
+})
 
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: "export",
-  basePath: "/meethackos.github.io",
-  images: {
-    unoptimized: true,
-  },
-	// any configs you need
-};
-
-module.exports = withNextra(nextConfig);
+module.exports = {
+  ...withNextra(),
+  basePath: '/meethackos.github.io',     // required for GitHub Pages!
+  assetPrefix: '/meethackos.github.io',
+  trailingSlash: true,             // super important!
+}
