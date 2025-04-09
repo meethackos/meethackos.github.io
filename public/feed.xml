@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Your Name]]></title>
+        <description><![CDATA[Your Name]]></description>
+        <link>https://yoursite.com</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Wed, 09 Apr 2025 01:11:44 GMT</lastBuildDate>
+        <atom:link href="https://yoursite.com/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[HackOS 1]]></title>
+            <description><![CDATA[Our first benchmarking hackathon]]></description>
+            <link>/posts/hackos1</link>
+            <guid isPermaLink="true">/posts/hackos1</guid>
+            <category><![CDATA[benchmarking]]></category>
+            <dc:creator><![CDATA[You]]></dc:creator>
+            <pubDate>Fri, 04 Apr 2025 04:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[HackOS 2]]></title>
+            <description><![CDATA[12-hour ARC AGI hacakthon]]></description>
+            <link>/posts/hackos2</link>
+            <guid isPermaLink="true">/posts/hackos2</guid>
+            <category><![CDATA[ARC AGI]]></category>
+            <dc:creator><![CDATA[You]]></dc:creator>
+            <pubDate>Fri, 04 Apr 2025 04:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[HackOS 4 Recap]]></title>
+            <description><![CDATA[10-day hacakthon for perturbation prediction]]></description>
+            <link>/posts/markdown</link>
+            <guid isPermaLink="true">/posts/markdown</guid>
+            <category><![CDATA[drug discovery]]></category>
+            <dc:creator><![CDATA[You]]></dc:creator>
+            <pubDate>Fri, 04 Apr 2025 04:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[HackOS 3]]></title>
+            <description><![CDATA[The world's first DeepSeek hackathon]]></description>
+            <link>/posts/pages</link>
+            <guid isPermaLink="true">/posts/pages</guid>
+            <category><![CDATA[deepseek]]></category>
+            <category><![CDATA[site reliability engineering]]></category>
+            <dc:creator><![CDATA[You]]></dc:creator>
+            <pubDate>Fri, 04 Apr 2025 04:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
